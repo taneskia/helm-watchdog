@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-04-13T09:22:33Z",
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
+    },
+    "go@1.24.1": {
+      "last_modified": "2025-03-23T05:31:05Z",
+      "resolved": "github:NixOS/nixpkgs/dd613136ee91f67e5dba3f3f41ac99ae89c5406b#go",
+      "source": "devbox-search",
+      "version": "1.24.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ja4jxx60lh1qfqfl4z4p2rff56ia1c3c-go-1.24.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ja4jxx60lh1qfqfl4z4p2rff56ia1c3c-go-1.24.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6zvrmsmdg7p8yw3vii20g40b4zsh6kjr-go-1.24.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6zvrmsmdg7p8yw3vii20g40b4zsh6kjr-go-1.24.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2bcic1xcha2k11djynr488v3pg0nnghr-go-1.24.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2bcic1xcha2k11djynr488v3pg0nnghr-go-1.24.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g29rrn8qqlg4yjqv543ryrkimr7fk43h-go-1.24.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g29rrn8qqlg4yjqv543ryrkimr7fk43h-go-1.24.1"
+        }
+      }
+    },
+    "operator-sdk@1.39.2": {
+      "last_modified": "2025-03-22T01:19:59Z",
+      "resolved": "github:NixOS/nixpkgs/0740f6f238767d4caf9afe774d3e88105766dfc6#operator-sdk",
+      "source": "devbox-search",
+      "version": "1.39.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/np5w2pmr2j22y0cckxwrbj0kxhs1clwm-operator-sdk-1.39.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/np5w2pmr2j22y0cckxwrbj0kxhs1clwm-operator-sdk-1.39.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yc04g9myyxq98jbj1dg3m3m7by31p2nq-operator-sdk-1.39.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yc04g9myyxq98jbj1dg3m3m7by31p2nq-operator-sdk-1.39.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5gvbnwdmgvgqp1p422r26mf0526f5p6a-operator-sdk-1.39.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5gvbnwdmgvgqp1p422r26mf0526f5p6a-operator-sdk-1.39.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qsahr9mnl9h4cnpqff458arwq9wj6z89-operator-sdk-1.39.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qsahr9mnl9h4cnpqff458arwq9wj6z89-operator-sdk-1.39.2"
+        }
+      }
+    }
+  }
+}
